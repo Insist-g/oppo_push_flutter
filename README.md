@@ -24,4 +24,5 @@ Flutter Version >= 1.12
 监听器方法原形: `typedef ListenerValue<P> = void Function(OppoPushListenerTypeEnum type, P params);`
 
 仿照 - [FlutterXiaoMiPushPlugin\[\]](https://github.com/JiangJuHong/FlutterXiaoMiPushPlugin) 编写.
+
 菜鸟一枚 水平有限 多多包涵～
