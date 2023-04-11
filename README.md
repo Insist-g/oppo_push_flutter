@@ -14,6 +14,7 @@ Flutter Version >= 1.12
 |  ----  |--------------| ----  |
 | initSDK  | 初始化          | { isDebug: true }
 | register  | 注册           | { appKey: **, appSecret: ** }
+| unRegister  | 解注册MSP推送服务           | -
 | getRegisterID  | 获取registerId         | -
 | isSupportPush  | 判断是否手机平台是否支持PUSH       | -
 | requestNotificationPermission  | 弹出通知栏权限弹窗（仅一次）       | -

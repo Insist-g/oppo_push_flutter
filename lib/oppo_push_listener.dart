@@ -4,7 +4,6 @@ import 'package:flutter/services.dart';
 
 class OppoPushListener {
   static Set<ListenerValue> listeners = {};
-  final String TAG = "| OPPO | Push |";
 
   OppoPushListener(MethodChannel channel) {
     channel.setMethodCallHandler((methodCall) async {
@@ -76,12 +75,12 @@ typedef ListenerValue<P> = void Function(
     OppoPushListenerTypeEnum type, P? params);
 
 enum OppoPushListenerTypeEnum {
-  RegisterResponse,
-  UnRegisterResponse,
-  SetPushTimeResult,
-  GetPushStatusResult,
-  GetNotificationStatus,
-  OnError,
-  OnAppNotification,
-  GetAppNotificationSwitch,
+  registerResponse,
+  unRegisterResponse,
+  setPushTimeResult,
+  getPushStatusResult,
+  getNotificationStatus,
+  onError,
+  onAppNotification,
+  getAppNotificationSwitch,
 }
